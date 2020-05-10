@@ -19,17 +19,6 @@ int main(void)
         printf("\n");
     }
 
-    for (int i = 1; i < num; i++)
-    {
-        for (int k = num - 1; k > i; k--)printf(" ");
-
-        for (int j = i * 2 + 1; j > 0; --j)
-        {
-            printf("*");
-        }
-        for (int k = num - 3; k > i; k--)printf(" ");
-        printf("\n");
-    }
     return 0;
 
 
